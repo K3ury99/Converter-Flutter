@@ -1,16 +1,31 @@
-# proyect_6
+# Converter-Flutter
+> [!NOTE]  
+> A web application for a real-time and historical currency conversion using the Frankfurter API.  
 
-A new Flutter project.
+<div style="display: flex;">
+  <img src="https://github.com/user-attachments/assets/7108adbf-4653-4da4-ab27-735f1d614e80" width="49%"></img>   
+  <img src="https://github.com/user-attachments/assets/5528052e-af12-4ffa-ab3b-238a56c65764" width="49%"></img> 
+</div>
 
-## Getting Started
+# 🗝 How to use it  
+You just have to download the zip file that is at the beginning of this repository, or clone the repository, and open the folder in Visual Studio Code, once there a terminal opens and you type "flutter run -s Edge", this will start loading commands allowing you to visualize the project in the Edge browser.
 
-This project is a starting point for a Flutter application.
+# 🎈 Installation  
+1. Clone the repository:  
+   ```bash  
+   git clone https://github.com/K3ury99/Converter-Flutter
 
-A few resources to get you started if this is your first Flutter project:
+# 📅 Rate History
+   - View recent exchange rates in a list.  
+   - Change the base currency to update displayed rates.  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# 🕹 Technologies  
+- **Frontend**: Flutter 
+- **API**: [Frankfurter](https://api.frankfurter.app) (real-time and historical exchange rate data)  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# 🌠 Final Notes
+Thank you for visiting this project!🌌
+
+## 📔 License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
