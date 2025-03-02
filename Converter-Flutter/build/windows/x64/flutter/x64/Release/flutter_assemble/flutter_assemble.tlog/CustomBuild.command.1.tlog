@@ -1,0 +1,28 @@
+^C:\USERS\KEURY\DESKTOP\CONVERTER-FLUTTER\CONVERTER-FLUTTER\BUILD\WINDOWS\X64\CMAKEFILES\8547366325E0E56A93033BE426F35578\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\flutter PROJECT_DIR=C:\Users\Keury\Desktop\Converter-Flutter\Converter-Flutter FLUTTER_ROOT=C:\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\Keury\Desktop\Converter-Flutter\Converter-Flutter\windows\flutter\ephemeral PROJECT_DIR=C:\Users\Keury\Desktop\Converter-Flutter\Converter-Flutter FLUTTER_TARGET=lib\main.dart DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=true PACKAGE_CONFIG=C:\Users\Keury\Desktop\Converter-Flutter\Converter-Flutter\.dart_tool\package_config.json C:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\KEURY\DESKTOP\CONVERTER-FLUTTER\CONVERTER-FLUTTER\BUILD\WINDOWS\X64\CMAKEFILES\0CF5A79B0472515CD960A3B388C5F402\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\KEURY\DESKTOP\CONVERTER-FLUTTER\CONVERTER-FLUTTER\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Keury/Desktop/Converter-Flutter/Converter-Flutter/windows -BC:/Users/Keury/Desktop/Converter-Flutter/Converter-Flutter/build/windows/x64 --check-stamp-file C:/Users/Keury/Desktop/Converter-Flutter/Converter-Flutter/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+^C:\USERS\KEURY\DESKTOP\CONVERTER-FLUTTER\CONVERTER-FLUTTER\BUILD\WINDOWS\X64\CMAKEFILES\EF3582F823D9B2D57701E8A1577F1266\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Keury/Desktop/Converter-Flutter/Converter-Flutter/windows -BC:/Users/Keury/Desktop/Converter-Flutter/Converter-Flutter/build/windows/x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Keury/Desktop/Converter-Flutter/Converter-Flutter/build/windows/x64/proyect_6.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
