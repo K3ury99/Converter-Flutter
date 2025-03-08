@@ -13,7 +13,7 @@ You just have to download the zip file that is at the beginning of this reposito
 # 🎈 Installation  
 Clone the repository:  
    ```bash  
-   git clone https://github.com/K3ury99/CRUD-Task-Log
+   git clone https://github.com/K3ury99/Converter-Flutter
    ```
 # 🎯 Usage
 To run the app, use the following command:
