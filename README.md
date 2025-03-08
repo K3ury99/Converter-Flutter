@@ -11,9 +11,37 @@
 You just have to download the zip file that is at the beginning of this repository, or clone the repository, and open the folder in Visual Studio Code, once there a terminal opens and you type "flutter run -s Edge", this will start loading commands allowing you to visualize the project in the Edge browser.
 
 # 🎈 Installation  
-1. Clone the repository:  
+Clone the repository:  
    ```bash  
-   git clone https://github.com/K3ury99/Converter-Flutter
+   git clone https://github.com/K3ury99/CRUD-Task-Log
+   ```
+# 🎯 Usage
+To run the app, use the following command:
+```bash
+flutter run -d Edge
+```
+Once launched you will be able to add your tasks, delete them and edit them, it has persistence so don't worry if you reload the page!
+
+# 🐱‍👤 Contributing
+1. **Fork the repo**
+- **Create a new branch**
+   
+```bash
+   git checkout -b feature-branch
+```
+2. **Add Everything**
+```bash
+  git add .
+```
+3. **Commit changes**
+```bash
+  git commit -am 'Add new feature'
+```
+4. **Pull & push to the origin**
+```bash
+  git pull
+  git push
+```
 
 # 📅 Rate History
    - View recent exchange rates in a list.  
